@@ -1,0 +1,28 @@
+.header {
+    justify-content: space-around;
+    background-color: rgb(39, 35, 35);
+}
+
+.header {
+
+    &__logo { 
+    width: 50%;
+    @include center;    //importer mixin
+    color: white;
+}
+
+    &__menu {
+    width: 40%;
+    @include center;  //importer mixin
+}
+
+    &__menu > a {
+        font-weight: bold;
+        color:steelblue;
+        margin-left: 20px;
+    
+    &:hover {               // = &__menu > a:hover
+        color: violet;
+    }
+}
+}

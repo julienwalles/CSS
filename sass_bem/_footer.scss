@@ -1,0 +1,17 @@
+
+.footer {
+    height: 100px;
+   background-color:rgb(39, 35, 35);
+}
+
+.footer {   
+
+    &__link {
+    width: 100%;
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+}
+}
+
+

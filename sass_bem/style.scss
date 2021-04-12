@@ -1,0 +1,10 @@
+
+@import 'header';
+@import 'jumbotron';
+@import 'footer';
+
+// créer un mixin
+@mixin center {
+    display: inline-block;
+    text-align: center;
+}
