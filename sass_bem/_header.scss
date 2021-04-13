@@ -5,24 +5,25 @@
 
 .header {
 
-    &__logo { 
-    width: 50%;
-    @include center;    //importer mixin
-    color: white;
-}
+    &__logo {
+        width: 50%;
+        @include center; //importer mixin
+        color: yellowgreen;
+    }
 
     &__menu {
-    width: 40%;
-    @include center;  //importer mixin
-}
-
-    &__menu > a {
-        font-weight: bold;
-        color:steelblue;
-        margin-left: 20px;
-    
-    &:hover {               // = &__menu > a:hover
-        color: violet;
+        width: 40%;
+        @include center; //importer mixin
     }
-}
+
+    &__menu>a {
+        font-weight: bold;
+        color:chartreuse;
+        margin-left: 20px;
+
+        &:hover {
+            // = &__menu > a:hover
+            color: brown;
+        }
+    }
 }
